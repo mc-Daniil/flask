@@ -30,7 +30,10 @@ def image_mars():
                 </head>
                 <body>
                     <h1>Жди нас, Марс!</h1>
-                    <img src="{url_for("static", filename="img/mars.jpg")}">
+                    <figure>
+                        <img src="{url_for("static", filename="img/mars.jpg")}" alt="Вот он - счастливчик на Марсе">
+                        <figcaption>Вот он - счастливчик на Марсе</figcaption>
+                    </figure>
                 </body>
             </html>
             """
